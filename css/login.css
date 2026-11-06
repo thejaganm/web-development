@@ -1,0 +1,102 @@
+.user1{
+ margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+
+.user{
+    width: 100%;
+     padding: 30px;
+    max-width: 430px;
+    box-sizing: border-box;
+    display: flex;
+     flex-direction: column;
+    background-color: rgb(85, 143, 193);
+    color: aliceblue;
+    border-radius: 10px;
+    border:1px solid black;
+    gap: 5px;
+    
+}
+
+.input-group input {
+    border-radius: 10px;
+    border:1px solid black;
+    padding: 10px;
+    width: 100%;
+    max-width: 350px;
+   
+}
+
+.user h1{
+    text-align: center;
+}
+
+ .checkbox {
+    position: relative;
+    top: -17px;
+}
+.check1{
+    display: none;
+}
+.checkbox:hover .check1{
+    display: inline;
+}
+
+.button {
+   display: flex;
+   justify-content: end;
+   align-items: end;
+   gap: 5px;
+   margin-top: 8px;
+  
+}
+.button button{
+    background-color: rgb(226, 131, 53);
+    color:white;
+    border-radius: 10px;
+    border-color:1px solid black;
+    
+}
+.user h4{
+    text-align: center;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/*forgot password page style*/
+
+.password{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forgot{
+   width: 100%;
+     padding: 30px;
+    max-width: 430px;
+    box-sizing: border-box;
+    display: flex;
+     flex-direction: column;
+    background-color: rgb(85, 143, 193);
+    color: aliceblue;
+    border-radius: 10px;
+    border:1px solid black;
+    gap: 5px;
+}
+
+
+.check{
+    display: none;
+}
+.checkbox:hover .check{
+    display: inline;
+}
+.forgot h1{
+    text-align: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

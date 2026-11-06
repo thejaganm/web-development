@@ -4,7 +4,7 @@
 ========================= */
 
 body {
-    background-color: #f5f0e8;
+    background-color: #c375b0;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -308,5 +308,18 @@ main {
         grid-template-columns: 1fr;
     }
 
+}
+
+.footer {
+   background-color: #1e2a38;
+    padding: 10px 30px;
+
+}
+.info{
+    text-align: center;
+}
+.info a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:antiquewhite;
 }
 
